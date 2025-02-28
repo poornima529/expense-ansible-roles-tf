@@ -1,6 +1,6 @@
 - name: remove existing directory
   tags:
-  - deploynemt
+  - deployment
   ansible.builtin.file:
     path: "{{ APP_LOCATION }}" # backend folder is /app, frontend /usr/share/nginx/html
     state: absent
